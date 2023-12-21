@@ -993,3 +993,18 @@ footer p {
   margin: 0;
   background-color: rgba(0 0, 0, 0);
 }
+
+.about-containers {
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.profile-main-group {
+  flex: 0 0 auto;
+  width: 100%; /* Set the width of each slide */
+  margin-right: 20px; /* Add space between slides */
+}
