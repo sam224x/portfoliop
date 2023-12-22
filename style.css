@@ -89,6 +89,7 @@ a,
   padding: 7px;
   box-shadow: none;
   background-color: rgba(0, 0, 0, 0);
+  font-size: 13px;
 }
 
 .project-button:hover {
@@ -251,6 +252,7 @@ padding-left: 15px;
   margin-left: 0px;
   padding-right: 0px;
   width: 100%;
+  padding-top: 0;
 }
 
 a {
@@ -530,11 +532,11 @@ section {
 }
 
 #big-title {
-  font-size: 10vw;
+  font-size: 9.8vw;
   align-self: center;
   align-content: center;
   text-align: center;
-  margin-top: 30px;
+  margin-top: 5px;
 }
 
 #threetext {
@@ -700,8 +702,9 @@ h1{
 
 .project-titles {
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
 }
 
 #wawa {
@@ -800,6 +803,8 @@ h1{
   display: flex;
   justify-content: center;
   flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 100%;
 }
 
 .article-container {
@@ -817,7 +822,7 @@ h1{
   border-radius: 0px;
   padding: 0px;
   align-items: center;
-  max-width: 200px;
+  max-width: 190px;
 }
 
 .references {
