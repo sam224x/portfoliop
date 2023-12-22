@@ -289,10 +289,28 @@ a:hover {
   text-decoration-color: rgb(181, 181, 181);
 }
 
+#header-logo-text {
+  font-size: 24px;
+  font-weight: 600;
+}
+
 .big-text {
-    font-size: 10vw;
+    font-size: 8vw;
     line-height: 1;
     letter-spacing: .6;
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.big-text3 {
+  font-size: 8.2vw;
+  line-height: 1;
+  letter-spacing: .6;
+  text-align: center;
+  align-self: center;
+  color: black;
+  max-width: 80%;
 }
 
 .big-text2 {
@@ -433,7 +451,7 @@ section {
   border-color: black;
   margin-top: -120px;
   margin-bottom: 25px;
-  margin-left: 0px;
+  margin-left: 0;
   width: 100%;
 }
 
