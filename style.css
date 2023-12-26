@@ -42,7 +42,10 @@ body {
 
 #cat {
 width: 480px;
-margin:-20px auto;
+margin-top: 50px;
+margin: 0px auto;
+align-self: flex-end;
+align-content: flex-end;
 
 }
 
@@ -283,11 +286,11 @@ a,
   align-items: center;
   background-color: white;
   padding: 10px;
-  border: 1px solid black;
+  border: none;
   border-radius: 0px;
   border-right: none;
   border-left: none;
-  border-top: none;
+  border-top: 0px;
   margin-bottom: 0px;
 }
 
@@ -463,8 +466,8 @@ a:hover {
 }
 
 .big-text3 {
-  font-size: 8.3vw;
-  line-height: .93;
+  font-size: 8.1vw;
+  line-height: .82;
   letter-spacing: .6;
   text-align: center;
   align-self: center;
@@ -636,7 +639,7 @@ section {
   border-top: 0px;
   border-style: solid;
   border-color: black;
-  margin-top: -54px;
+  margin-top: -25px;
   margin-bottom: 0px;
   margin-left: 0;
   width: 100%;
@@ -712,6 +715,8 @@ section {
   justify-content: center;
   margin-left: 0px;
   width: 100%;
+  margin-top: 0px;
+  margin-bottom: 175px;
 }
 
 #cool-animation {
