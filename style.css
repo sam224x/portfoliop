@@ -48,15 +48,15 @@ margin:-60px auto;
 
 
 #head {
-width: 400px;
-height: 370px;
-background-color: #171717;
+width: 380px;
+height: 350px;
+background-color: #000000;
 border-radius: 50%;
 margin: auto;
 }
 
 #ears {
-height: 65px;
+height: 45px;
 position: relative;
 left: 35px;
 animation-name: an-ears;
@@ -70,7 +70,7 @@ width: 0;
 height: 0; 
 border-left: 90px solid transparent;  
 border-right: 90px solid transparent; 
-border-bottom: 160px solid #171717; 
+border-bottom: 160px solid #000000; 
 font-size: 0;
 line-height: 0;
 float: left;
@@ -255,10 +255,10 @@ a,
 
 #counter {
   color: white;
-  font-size: 10vw;
+  font-size: 8vw;
   background-color: black;
-  margin-bottom: 50px ;
-  margin-top: -30px;
+  margin-bottom: 90px ;
+  margin-top: -80px;
 }
 
 .loader {
