@@ -255,8 +255,10 @@ a,
 
 #counter {
   color: white;
-  font-size: 170px;
+  font-size: 10vw;
   background-color: black;
+  margin-bottom: 50px ;
+  margin-top: -30px;
 }
 
 .loader {
@@ -294,9 +296,10 @@ a,
   justify-content: center;
   align-items: center;
   background-color: white;
-  padding: 10px;
+  padding: 5px;
   border: 1px solid black;
   border-radius: 10px;
+  min-width: 12px;
 }
 
 .word {
@@ -393,6 +396,7 @@ padding-left: 15px;
   padding: 9px;
   padding-right: 27px;
   padding-left: 27px;
+  min-width: 12px;
 }
 
 #experience {
