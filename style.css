@@ -42,14 +42,14 @@ body {
 
 #cat {
 width: 480px;
-margin:-60px auto;
+margin:-20px auto;
 
 }
 
 
 #head {
-width: 380px;
-height: 350px;
+width: 340px;
+height: 330px;
 background-color: #000000;
 border-radius: 50%;
 margin: auto;
@@ -90,19 +90,18 @@ margin-right: 60px;
 
 #eyes {
 clear: both;
-width: 350px;
+width: 300px;
 position: relative;
-top: 25px;
-left: 53px;
+top: 10px;
+left: 46px;
 }
 
 .eye {
-width: 120px;
-height: 120px;
+width: 100px;
+height: 100px;
 background-color: #FFFFFF;
 border-radius: 50%;
 float: left;
-
 }
 
 .eye:first-child {
@@ -111,7 +110,7 @@ margin-right: 50px;
 
 .pupil {
 position: relative;
-top:40px;
+top:30px;
 background-color: #000000;
 border-radius: 50%;
 width: 80px;
@@ -135,13 +134,13 @@ left: 10px;
 }
 
 #nose {
-width: 45px;
-height: 30px;
+width: 40px;
+height: 28px;
 border-radius: 50%;
 background-color: #FFFFFF;
 position: relative;
-top: 160px;
-left: 170px;
+top: 146px;
+left: 160px;
 }
 
 #baffi_sx {
@@ -289,6 +288,7 @@ a,
   border-right: none;
   border-left: none;
   border-top: none;
+  margin-bottom: 0px;
 }
 
 .headersub {
@@ -464,13 +464,14 @@ a:hover {
 
 .big-text3 {
   font-size: 8.3vw;
-  line-height: 1;
+  line-height: .93;
   letter-spacing: .6;
   text-align: center;
   align-self: center;
   color: black;
   max-width: 80%;
   margin-bottom: -50px;
+  margin-top: -40px;
 }
 
 #square {
@@ -635,8 +636,8 @@ section {
   border-top: 0px;
   border-style: solid;
   border-color: black;
-  margin-top: -120px;
-  margin-bottom: 25px;
+  margin-top: -54px;
+  margin-bottom: 0px;
   margin-left: 0;
   width: 100%;
 }
