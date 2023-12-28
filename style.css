@@ -243,7 +243,7 @@ a,
   padding: 7px;
   box-shadow: none;
   background-color: rgba(0, 0, 0, 0);
-  font-size: 13px;
+  font-size: 12px;
 }
 
 .project-button:hover {
@@ -1195,6 +1195,84 @@ footer p {
 .top-border {
   border-top: 1px solid black;
 }
+
+/*Slider*/
+.bg-red {
+  }
+  
+  .container {
+    max-width: 1170px;
+    margin: auto;
+  }
+  
+  /* Slider styles */
+  
+  .slider-container {
+    padding: 20px 0;
+    max-height: 100vh;
+  }
+  
+  .slides-wrapper {
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .slides-container {
+    padding: 0 10px;
+  }
+  
+  .slider-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+    transition: 1s;
+    max-height: calc(100vh - 80px);
+  }
+  
+  .slider-item {
+    margin: 0 16px -4px 0;
+    min-height: 150px;
+    width: 100%; /* Set the width of each slide */
+    margin-right: 20px; /* Add space between slides */
+  }
+  
+  .slider-item img {
+    width: 100%;
+  }
+  
+  .slider-arrows {
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    padding: 0 10px;
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .slider-arrow-prev,
+  .slider-arrow-next {
+    border: solid;
+    background-color: #000000;
+    color: #ffffff;
+border-color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .slider-arrow-prev:hover,
+  .slider-arrow-next:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+
+
+
+
+
 
 .content {
   padding: 20px;
