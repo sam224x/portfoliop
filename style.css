@@ -316,6 +316,7 @@ a,
   color: black;
   border: none;
   min-width: 12px;
+  font-size: .85rem;
 }
 
 .border {
