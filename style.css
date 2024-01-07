@@ -17,6 +17,10 @@ body {
   background-color: linear-gradient(90deg, rgba(201,214,236,1) 0%, rgba(226,219,226,1) 55%, rgba(201,214,236,1) 100%);
 }
 
+h3 {
+  color: black;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -347,12 +351,16 @@ padding-left: 15px;
 #experience {
   border-right: none;
   padding-left: 0px;
+  height: 100vh;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #projects {
   width: 100%;
   padding-top: 0;
   margin-left: 0px;
+  height: 100vh;
 }
 
 a {
@@ -573,6 +581,7 @@ section {
   margin-bottom: 0px;
   margin-left: 0;
   width: 100%;
+  height: 100vh;
 }
 
 
@@ -645,19 +654,24 @@ section {
   justify-content: center;
   margin-left: 0px;
   width: 100%;
+  min-height: 100vh;
   margin-top: 0px;
-  margin-bottom: 175px;
+  margin-bottom: 0px;
 }
 
 #cool-animation {
-  margin-top: -50px
+  margin-top: -20px;
+  margin-bottom: 0px;
+  height: 100vh;
 }
 
 .cool-animation {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 150px;
+  margin-bottom: 0px;
+  margin-top; 0px;
+  height: 100vh;
 }
 
 @import "compass/css3";
@@ -781,10 +795,11 @@ h1{
 
 #about {
   position: relative;
-  margin-bottom: 140px;
-  margin-top: 80px;
+  margin-bottom: 0px;
+  margin-top: 0px;
   margin-left: 0px;
   width: 100%;
+  height: 100vh;
 }
 
 .about-containers {
@@ -805,7 +820,7 @@ h1{
 
 #wawa {
   margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-top: 0rem;
   border-color: ;
   border-radius: 0;
   padding: 20px;
@@ -879,7 +894,7 @@ h1{
 
 #experience {
   position: relative;
-  margin-top: 120px;
+  margin-top: 0px;
   margin-left: 0px;
   width: 100%;
   display: flex;
@@ -1012,7 +1027,7 @@ article .icon {
   justify-content: center;
   align-items: center;
   align-self: center;
-  margin-top: 80px;
+  margin-top: 0px;
   color: black;
   background: rgb(201,214,236);
 background: linear-gradient(90deg, rgba(201,214,236,1) 0%, rgba(226,219,226,1) 55%, rgba(201,214,236,1) 100%);
@@ -1139,8 +1154,9 @@ footer p {
 .stretched-box:hover {
   width: 100%; /* Stretch to the length of the page */
   border-top: 1px solid black; /* Black 1px border on top */
-  background-color: ; /* White background */
-  color: #000000; 
+  background-color: rgb(125, 182, 243); /* White background */
+  opacity: 35%;
+  color: black; 
   padding: 10px; 
   display: flex; 
   justify-content: space-between; 
