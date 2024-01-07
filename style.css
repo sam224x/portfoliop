@@ -620,7 +620,7 @@ section {
 }
 
 #twotext {
-  font-size: 5vw;
+  font-size: 6vw;
   max-width: 1200px;
   min-width: 300px;
   line-height: 1.4;
@@ -657,6 +657,8 @@ section {
   min-height: 100vh;
   margin-top: 0px;
   margin-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 #cool-animation {
