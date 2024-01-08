@@ -285,17 +285,18 @@ a,
   align-items: center;
   background-color: ;
   padding: 10px;
-  margin-bottom: 50px;
-  margin-top: -239PX;
+  margin-bottom: 60px;
+  margin-top: -289PX;
 }
 
 .headersub {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   background-color: ;
   padding: 5px;
-  border: 1px solid ;
   border-radius: 10px;
   min-width: 12px;
 }
@@ -310,7 +311,7 @@ a,
   text-decoration: none;
   color: black;
   min-width: 12px;
-  font-size: .85rem;
+  font-size: .93vw;
 }
 
 .border {
