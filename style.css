@@ -311,7 +311,7 @@ a,
   text-decoration: none;
   color: black;
   min-width: 12px;
-  font-size: .93vw;
+  font-size: clamp(10px, .93vw, 20px);
 }
 
 .border {
@@ -402,7 +402,7 @@ a:hover {
 }
 
 .big-text {
-    font-size: 8vw;
+    font-size: clamp(20px, 8vw, 150px);
     line-height: 1;
     letter-spacing: .6;
     text-align: left;
@@ -723,7 +723,7 @@ h1{
     top: 42%;
     color: black;
     white-space: nowrap;
-    font-size: 5vw;
+    font-size: clamp(16px, 5vw, 140px);
     animation: width-anim 2.42s 2.42s infinite alternate both;
   }
 
@@ -891,7 +891,7 @@ h1{
 }
 
 .GeneratedMarquee {
-  font-size: 10vw;
+  font-size: clamp(40px, 10vw, 200px);
   font-weight: 500px;
   width: 100%;
 }
