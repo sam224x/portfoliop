@@ -1030,7 +1030,7 @@ article .icon {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   align-self: center;
   padding-bottom: 10px;
@@ -1086,13 +1086,15 @@ footer p {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border-color: black;
-  border-right: 1px solid ;
-  border-top-style: solid;
-  border-bottom-style: solid;
+  border-color: none;
   padding: 10px;
   height: 200px;
 }
+
+/*Old black border box */
+border-right: 1px solid ;
+border-top-style: solid;
+border-bottom-style: solid;
 
 .box-black-border:last-child {
   display: flex;
@@ -1100,9 +1102,9 @@ footer p {
   align-items: center;
   flex-direction: column;
   border-color: ;
-  border-top-style: solid;
+  /* border-top-style: solid;
   border-right-style: solid;
-  border-bottom-style: solid;
+  border-bottom-style: solid; */
   padding: 10px;
   height: 200px;
   width: 23.5%;
@@ -1115,9 +1117,9 @@ footer p {
   align-items: center;
   flex-direction: column;
   border-color: ;
-  border-top-style: solid;
+  /* border-top-style: solid;
   border-left-style: solid;
-  border-bottom-style: solid;
+  border-bottom-style: solid; */
   padding: 10px;
   height: 200px;
   width: 23.5%;
