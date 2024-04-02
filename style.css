@@ -450,7 +450,7 @@ a:hover {
   align-self: center;
   color: white;
   max-width: 80%;
-  margin-bottom: 0px;
+  margin-bottom: 90px;
   margin-top: 50px;
 }
 
@@ -931,6 +931,12 @@ text-align: center;
 
 .GeneratedMarquee {
   font-size: clamp(40px, 10vw, 200px);
+  font-weight: 500px;
+  width: 100%;
+}
+
+.GeneratedMarquee-small {
+  font-size: clamp(12px, 3vw, 30px);
   font-weight: 500px;
   width: 100%;
 }
