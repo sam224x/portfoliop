@@ -915,7 +915,7 @@ text-align: center;
   flex-direction: column;
   margin-top: 20px;
   text-wrap: nowrap;
-  max-height: 200px;
+  max-height: 310px;
 }
 
 .section-container {
@@ -930,7 +930,7 @@ text-align: center;
 }
 
 .GeneratedMarquee {
-  font-size: clamp(40px, 10vw, 200px);
+  font-size: clamp(40px, 16vw, 200px);
   font-weight: 500px;
   width: 100%;
 }
