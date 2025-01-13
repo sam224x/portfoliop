@@ -550,12 +550,12 @@ section {
   font-size: 19px;
   text-align: center;
   color: #00ff00;
-  margin-top: 130px;
+  margin-top: 170px;
 }
 
 
 .title-smaller {
-  font-size: 60px;
+  font-size: clamp(30px, 15vh, 180px);
   color: #00ff00;
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
