@@ -555,7 +555,7 @@ section {
 
 
 .title-smaller {
-  font-size: clamp(30px, 15vh, 180px);
+  font-size: clamp(20px, 8vw, 180px);
   color: #00ff00;
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
@@ -563,6 +563,7 @@ section {
   position: absolute;
   padding: 1rem; /* Optional for spacing */
 }
+
 
 #twotext {
   font-size: 6vw;
