@@ -855,6 +855,28 @@ text-align: center;
   width: 100%;
 }
 
+.scrolling-text {
+  display: inline-block;
+  animation: scroll-left 10s linear infinite;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* Slower speed on mobile */
+@media (max-width: 768px) {
+  .scrolling-text {
+    animation-duration: 20s; /* Slower animation */
+  }
+}
+
+
 /* EXPERIENCE SECTION */
 
 #experience {
